@@ -1,0 +1,39 @@
+* {
+  background: #000;
+  color: tan;
+  font-family: monospace;
+}
+
+body > *:not(script) {
+  display: block;
+}
+#url,
+canvas {
+  background: #333;
+  min-width: 228px;
+}
+#url-container > * {
+  display: inline-block;
+}
+
+audio {
+  width: 340px;
+  background: #ccc;
+  padding: 2px 0;
+}
+
+#output {
+  margin-top: 2em;
+  white-space: nowrap;
+}
+
+#output > div > * {
+  display: inline-block;
+}
+
+div.memo {
+  border-bottom: #666 1px dashed;
+  margin-left: 1em;
+  min-width: 1.5em;
+  font-size: small;
+}

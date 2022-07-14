@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>dsp audio</title>
+    <link rel="icon" type="image/png" href="data:image/png;base64," />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="analyser.js"></script>
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <label>
+      <input type="checkbox" id="unload" checked />unload confirmation
+    </label>
+    <canvas width="340" height="110" id="analyser">analyser</canvas>
+
+    <audio controls>
+      <source />
+    </audio>
+    <div id="url-container">
+      <input type="text" id="url" /><button id="url-button">></button>
+    </div>
+    <div id="output"></div>
+  </body>
+</html>
